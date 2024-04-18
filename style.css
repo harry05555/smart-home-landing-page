@@ -108,13 +108,13 @@ textarea:not([rows]) {
 
 /* reset end */
 .container {
-  max-width: 1170px;
+  max-width: 73.125rem;
   margin: auto;
 }
 
 body {
   font-family: Inter;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 .hero {
@@ -126,7 +126,7 @@ body {
 .main_nav {
   display: flex;
   align-items: center;
-  padding-top: 30px;
+  padding-top: 1.875rem;
 }
 
 .main_nav a {
@@ -144,15 +144,15 @@ body {
 }
 
 .main_nav .margin_left_35 {
-  margin-left: 35px;
+  margin-left: 2.188rem;
 }
 
 .logo {
-  margin-left: 111px;
+  margin-left: 6.938rem;
 }
 
 .logo a {
-  font-size: 32px;
+  font-size: 2rem;
   font-family: Inter Bold;
 }
 
@@ -161,59 +161,59 @@ body {
 }
 
 .login_section {
-  margin-left: 260px;
+  margin-left: 16.25rem;
   display: flex;
   align-items: center;
 }
 
 .login {
-  margin-right: 35px;
+  margin-right: 2.188rem;
   color: hsl(0, 0%, 100%);
 }
 
 .login_section .button {
   color: black;
   background-color: hsl(0, 0%, 100%);
-  padding: 18px 43px 18px 44px;
-  border-radius: 5px;
+  padding: 1.125rem 2.688rem 1.125rem 2.75rem;
+  border-radius: 0.313rem;
 }
 
 .login_section .button:hover {
   text-decoration: none;
   background-color: hsl(224, 95%, 55%);
   color: hsl(0, 0%, 100%);
-  border: white solid 1px;
+  border: white solid 0.063rem;
 }
 
 .headline_center {
   display: flex;
   justify-content: center;
-  margin-top: 60px;
+  margin-top: 3.75rem;
 }
 
 .hero_heading {
-  width: 756px;
+  width: 47.25rem;
   text-align: center;
 }
 
 .hero_heading h1 {
   font-family: Inter ExtraBold;
-  font-size: 85px;
+  font-size: 5.313rem;
   display: flex;
 }
 
 .hero_heading p {
-  margin-top: 30px;
+  margin-top: 1.875rem;
 }
 
 .hero_image {
-  margin-top: 10px;
+  margin-top: 0.625rem;
 }
 
 .social_nav {
   position: absolute;
-  top: 554px;
-  left: 50px;
+  top: 34.625rem;
+  left: 3.125rem;
 }
 
 .social_nav a {
