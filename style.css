@@ -178,25 +178,21 @@ body {
   border: white solid 0.063rem;
 }
 
-.headline_center {
-  display: flex;
-  justify-content: center;
+.headline {
+  width: 756px;
+  margin: auto;
+  text-align: center;
   margin-top: 3.75rem;
 }
 
-.hero_heading {
-  width: 47.25rem;
-  text-align: center;
-}
-
-.hero_heading h1 {
+.headline h1 {
   font-family: Inter ExtraBold;
   font-size: 5.313rem;
-  display: flex;
+  margin-bottom: 1.875rem;
 }
 
-.hero_heading p {
-  margin-top: 1.875rem;
+.headline p {
+  margin-bottom: 1.875rem;
 }
 
 .hero_image {
