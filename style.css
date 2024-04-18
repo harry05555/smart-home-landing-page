@@ -203,9 +203,39 @@ body {
 .social_nav {
   position: absolute;
   top: 34.625rem;
-  left: 3.125rem;
+  left: 3.188rem;
 }
 
 .social_nav a {
   color: black;
+}
+
+.social_links {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  list-style: none;
+}
+
+.icon_conf {
+  display: block;
+  height: 18px;
+  width: 18px;
+  background-size: 100% 100%;
+}
+
+.social-links-facebook {
+  background-image: url(assets/img/facebook.svg);
+}
+
+.social-links-instagram {
+  background-image: url(assets/img/instagram.svg);
+}
+
+.social-links-twitter {
+  background-image: url(assets/img/twitter.svg);
+}
+
+.social-links-linkedin {
+  background-image: url(assets/img/linkedin.svg);
 }
