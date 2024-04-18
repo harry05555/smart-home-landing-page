@@ -22,6 +22,7 @@
   font-family: 'Inter-SemiBold';
   src: url('assets/fonts/Inter-SemiBold.ttf') format('woff2');
 }
+
 /* Start reset */
 /* https://piccalil.li/blog/a-more-modern-css-reset/*/
 /* Box sizing rules */
@@ -121,65 +122,57 @@ body {
   background-color: hsl(224, 95%, 55%);
   height: 92vh;
   color: hsl(0, 0%, 100%);
+  padding-top: 30px;
 }
 
 .main_nav {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  padding-top: 1.875rem;
+}
+
+.main_nav ul {
+  display: flex;
+  gap: 2.188rem;
+  list-style: none;
+
 }
 
 .main_nav a {
   text-decoration: none;
 }
 
-
-.main_nav a:hover {
-  text-decoration: underline;
-}
-
-.main_nav ul {
+.registration {
   display: flex;
-  list-style: none;
-}
-
-.main_nav .margin_left_35 {
-  margin-left: 2.188rem;
+  align-items: center;
+  gap: 2.188rem;
 }
 
 .logo {
-  margin-left: 6.938rem;
-}
-
-.logo a {
+  color: hsl(0, 0%, 100%);
   font-size: 2rem;
   font-family: Inter Bold;
 }
 
-.logo a:hover {
-  text-decoration: none;
-}
-
-.login_section {
-  margin-left: 16.25rem;
-  display: flex;
-  align-items: center;
-}
-
 .login {
-  margin-right: 2.188rem;
   color: hsl(0, 0%, 100%);
 }
 
-.login_section .button {
+.login:hover,
+.main_nav li a:hover,
+.logo:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+}
+
+.button {
   color: black;
   background-color: hsl(0, 0%, 100%);
   padding: 1.125rem 2.688rem 1.125rem 2.75rem;
   border-radius: 0.313rem;
 }
 
-.login_section .button:hover {
-  text-decoration: none;
+.button:hover {
   background-color: hsl(224, 95%, 55%);
   color: hsl(0, 0%, 100%);
   border: white solid 0.063rem;
