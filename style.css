@@ -196,6 +196,7 @@ body {
 }
 
 .hero_image {
+  margin: auto;
   margin-top: 0.625rem;
 }
 
