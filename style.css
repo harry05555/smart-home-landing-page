@@ -175,7 +175,7 @@ body {
 .button:hover {
   background-color: hsl(224, 95%, 55%);
   color: hsl(0, 0%, 100%);
-  border: white solid 0.063rem;
+  outline: white solid 0.063rem;
 }
 
 .headline {
