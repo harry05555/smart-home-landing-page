@@ -170,12 +170,13 @@ body {
   background-color: hsl(0, 0%, 100%);
   padding: 1.125rem 2.688rem 1.125rem 2.75rem;
   border-radius: 0.313rem;
+  border: 0.063rem solid transparent
 }
 
 .button:hover {
   background-color: hsl(224, 95%, 55%);
   color: hsl(0, 0%, 100%);
-  outline: white solid 0.063rem;
+  border-color: white;
 }
 
 .headline {
